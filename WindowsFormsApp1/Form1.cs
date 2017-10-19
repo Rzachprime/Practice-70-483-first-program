@@ -16,19 +16,18 @@ namespace WindowsFormsApp1
         {
             InitializeComponent();
         }
-
+        // auto generated code created by double clicking on form
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            // would put a call to a method in here that would run on form load
         }
-
+        // on button click 
         private void button1_Click(object sender, EventArgs e)
         {
-            SayHello();
-
-          
+            //calls the SayHello method when the button is pressed
+            SayHello();  
         }
-
+        // method to creat a message box with a message displayeed inside
         public void SayHello()
         {
             MessageBox.Show("Hello!!");
